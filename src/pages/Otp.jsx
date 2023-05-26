@@ -6,7 +6,7 @@ const Otp = () => {
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
-        <AuthNavBar name={'Resident Address'} />
+        <AuthNavBar name={'Resident Address'}  page={'/resident'}/>
       </div>
       <div className="relative flex min-h-screen flex-col justify-center overflow-hidden ">
         <div className="relative  px-6  pb-9  mx-auto w-full max-w-lg ">

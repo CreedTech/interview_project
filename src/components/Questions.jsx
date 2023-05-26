@@ -13,21 +13,21 @@ const Questions = () => {
             <p>Ut reiciendis deleniti eum possimus eveniet qui iste </p>
           </div>
           <div className="flex mf:flex-row flex-col justify-center items-center ">
-            <div className="flex  bg-[#4B16C7] shadow-lg px-16 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex  bg-[#4B16C7] shadow-lg px-16 my-3 py-6 mx-6 flex-col justify-around items-center ">
               <div>
                 <p className="text-xl text-white">
                   terms and
                 </p>
               </div>
             </div>
-            <div className="flex  bg-[#FC840C] shadow-lg px-16 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex  bg-[#FC840C] shadow-lg px-16 my-3 py-6 mx-6 flex-col justify-around items-center ">
               <div>
                 <p className="text-xl text-white">
                   terms and
                 </p>
               </div>
             </div>
-            <div className="flex  bg-[#4B16C7] shadow-lg px-16 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex  bg-[#4B16C7] shadow-lg px-16 py-6 my-3 mx-6 flex-col justify-around items-center ">
               <div>
                 <p className="text-xl text-white">
                   terms and

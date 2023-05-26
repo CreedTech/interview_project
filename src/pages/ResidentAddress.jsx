@@ -8,7 +8,7 @@ const ResidentAddress = () => {
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
-        <AuthNavBar name={'Resident Address'} />
+        <AuthNavBar name={'Resident Address'} page={'/personal'} />
       </div>
       <div className="flex w-full justify-center items-center 2xl:px-20 pt-5">
         <div className="flex flex-col md:p-12 py-12 px-4">

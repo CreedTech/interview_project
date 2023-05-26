@@ -14,7 +14,7 @@ const Home = () => {
       <div className="gradient-bg-welcome">
         <Navbar />
         <HelpCenter />
-        <div className="w-75 flex flex-row justify-between relative top-10 pt-5 pb-4 px-10 search-hero mf:mx-96 shadow-lg">
+        <div className="w-75 flex flex-row justify-between relative top-10 pt-5 pb-4 mf:px-10 px-8 search-hero mf:mx-48 shadow-lg">
           <div className="w-[80%] mt-2">
             <input
               type="text"
@@ -24,18 +24,16 @@ const Home = () => {
             />
           </div>
           <div>
-            <button className="bg-[#5218C7] py-4 mr-4 px-12 text-white rounded-[50px] uppercase">
+            <button className="bg-[#5218C7] mf:py-4 py-2 mf:mr-4 px-8 text-white rounded-[50px] uppercase">
               {' '}
-              <BsSearch className="cursor-pointer text-white inline mr-4" />{' '}
+              <BsSearch className="cursor-pointer text-white mf:inline hidden mf:mr-4" />{' '}
               Search
             </button>
           </div>
         </div>
       </div>
-          <Services />
-          <div className='my-80'>
-              
-          </div>
+      <Services />
+      <div className="my-80"></div>
       <Categories />
       <Questions />
       <Footer />

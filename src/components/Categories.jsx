@@ -14,7 +14,7 @@ const Categories = () => {
             Browse all categories
           </h2>
           <div className="flex mf:flex-row flex-col justify-center items-center relative top-60 bottom-80">
-            <div className="flex w-1/5 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex mf:w-1/5 w-full mf:my-0 my-4 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
             <div className="flex flex-col justify-around items-center uppercase">
                 <RiLuggageDepositFill size={30} className="cursor-pointer text-black inline mr-4 mb-4" />
                 <p className='text-xl'>Deposit</p>
@@ -29,7 +29,7 @@ const Categories = () => {
                 <p className="uppercase text-xl">Niyia</p>
               </div>
             </div>
-            <div className="flex w-1/5 h-[30rem] bg-[#4B16C7] shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex mf:w-1/5 w-full mf:my-0 my-4 h-[30rem] bg-[#4B16C7] shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
             <div className="flex flex-col justify-around items-center uppercase">
                 <GiBurningBook size={30} className="cursor-pointer text-white inline mr-4 mb-4" />
                 <p className='text-xl'>Deposit</p>
@@ -44,7 +44,7 @@ const Categories = () => {
                 <p className="uppercase text-white text-xl">Niyia</p>
               </div>
             </div>
-            <div className="flex w-1/5 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex mf:w-1/5 w-full mf:my-0 my-4 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
             <div className="flex flex-col justify-around items-center uppercase">
                 <SlReload size={30} className="cursor-pointer text-black inline mr-4 mb-4" />
                 <p className='text-xl'>Deposit</p>
@@ -59,7 +59,7 @@ const Categories = () => {
                 <p className="uppercase text-xl">Niyia</p>
               </div>
             </div>
-            <div className="flex w-1/5 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
+            <div className="flex mf:w-1/5 w-full mf:my-0 my-4 h-[30rem] bg-white shadow-lg px-8 py-6 mx-6 flex-col justify-around items-center ">
               <div className="flex flex-col justify-around items-center uppercase">
                 <RiAccountCircleFill size={30} className="cursor-pointer  text-black inline mr-4 mb-4" />
                 <p className='text-xl'>Deposit</p>

@@ -10,34 +10,34 @@ const Services = () => {
             We&lsquo;ve got answers
           </h2>
           <div className=" flex mf:flex-row flex-col justify-center pt-8">
-            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mf:my-0 my-4 mx-6">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>
             </div>
-            <div className="rounded-[50px] bg-[#4B16C7] text-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-[#4B16C7] text-white shadow-lg px-12 py-6 mx-6 mf:my-0 my-4">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>
             </div>
-            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6 mf:my-0 my-4">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>
             </div>
           </div>
           <div className="flex mf:flex-row flex-col justify-center pt-8">
-            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6 mf:my-0 my-4">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>
             </div>
-            <div className="rounded-[50px] bg-[#4B16C7] text-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-[#4B16C7] text-white shadow-lg px-12 py-6 mx-6 mf:my-0 my-4">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>
             </div>
-            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6">
+            <div className="rounded-[50px] bg-white shadow-lg px-12 py-6 mx-6 mf:my-0 my-4">
               <p className="text-lg tracking-wide">
                 maxime volupatum et reiciendis?
               </p>

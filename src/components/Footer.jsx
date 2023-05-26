@@ -5,7 +5,7 @@ import { AiOutlineMail, AiOutlineClose } from 'react-icons/ai';
 
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-center items-center flex-col gradient-bg-footer">
-    <div className="flex w-full justify-center items-center 2xl:px-20 pt-[25rem]">
+    <div className="flex w-full justify-center items-center 2xl:px-20 mf:pt-[25rem] mf:mt-0 mt-[25rem]">
       <div className="flex flex-col md:p-12 py-12 px-4">
         <h3 className="text-[#FC840C] text-3xl text-center my-2 uppercase">
           Subscribe Us
@@ -19,7 +19,7 @@ const Footer = () => (
         </p>
       </div>
     </div>
-    <div className="flex flex-row justify-evenly items-center white-glassmorphism p-3 m-2  cursor-pointer hover:shadow-xl mf:w-2/6 w-full mb-[20rem]">
+    <div className="flex flex-row justify-evenly items-center white-glassmorphism p-3 m-2  cursor-pointer hover:shadow-xl mf:w-2/6 w-full mf:mb-[20rem] mb-[10rem]">
       <div className="relative">
         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
           <AiOutlineMail className="cursor-pointer text-white inline" />
@@ -34,7 +34,7 @@ const Footer = () => (
       <p className="bg-[#FC840C] text-white py-4 px-7 mx-4 rounded-[50px] cursor-pointer hover:bg-[#FC840C] uppercase text-sm font-bold">
         Subscribe{' '}
         <span className="pl-3  rounded-full">
-          <AiOutlineClose className="cursor-pointer text-white inline" />
+          <AiOutlineClose className="cursor-pointer text-white mf:inline hidden" />
         </span>
       </p>
 

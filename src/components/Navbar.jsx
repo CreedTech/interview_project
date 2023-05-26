@@ -84,6 +84,9 @@ const Navbar = () => {
                   />
                 )
               )}
+              <li className="bg-[#FC840C] py-4 px-7 mx-4 rounded-[10px] cursor-pointer hover:bg-[#FC840C] uppercase text-sm font-bold">
+             <NavLink to="/login">Join Us</NavLink>
+          </li>
             </ul>
           )}
         </div>
