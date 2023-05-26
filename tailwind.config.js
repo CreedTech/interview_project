@@ -2,7 +2,7 @@
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   mode: 'jit',
-  media: false, // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       display: ['Open Sans', 'sans-serif'],
